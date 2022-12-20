@@ -15,7 +15,7 @@ int main()
 
 	doc.beSigned(c);
 	c.executeForm(doc);
-	doc.resetSigned();
+	std::cout << "-------------------------------------------" << "\n";
 	b.executeForm(doc);
 	d.executeForm(doc);
 
